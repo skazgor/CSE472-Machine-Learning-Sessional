@@ -7,9 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1KqszAnVRorMTjMG9a6PJ39zvnqMGu80c
 """
 
-!curl -O https://archive.ics.uci.edu/static/public/2/adult.zip
+# !curl -O https://archive.ics.uci.edu/static/public/2/adult.zip
 
-!unzip adult.zip
+# !unzip adult.zip
 
 # !pip install scikit-learn==1.3.2
 

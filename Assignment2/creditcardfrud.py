@@ -7,15 +7,15 @@ Original file is located at
     https://colab.research.google.com/drive/1aA6Vq_xTMbJgYDqgY44mIkCVfagBF-kY
 """
 
-!pip install kaggle
+# !pip install kaggle
 
-!mkdir -p ~/.kaggle
-!mv kaggle.json ~/.kaggle/
-!chmod 600 ~/.kaggle/kaggle.json
+# !mkdir -p ~/.kaggle
+# !mv kaggle.json ~/.kaggle/
+# !chmod 600 ~/.kaggle/kaggle.json
 
-!kaggle datasets download -d mlg-ulb/creditcardfraud
+# !kaggle datasets download -d mlg-ulb/creditcardfraud
 
-!unzip creditcardfraud.zip
+# !unzip creditcardfraud.zip
 
 import pandas as pd
 import numpy as np
